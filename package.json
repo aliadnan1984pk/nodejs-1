@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-1",
+  "version": "1.0.0",
+  "description": "Care Merge Test",
+  "author": "Ali Adnan",
+  "license": "GNU LGPL v3.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "startDev": "supervisor -w .,app server.js"
+  },
+  "dependencies": {
+    "async": "^2.1.2",
+    "express": "^4.14.0",
+    "request": "^2.79.0",
+    "rsvp": "^3.3.3"
+  }
+}
